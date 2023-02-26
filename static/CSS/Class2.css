@@ -1,0 +1,58 @@
+
+.container{
+    height: 500px;
+    width: 500px;
+    margin-top: -1000px;
+    background-color: white;
+     display: flex;
+
+}
+.img-fluid{
+
+    width: 2000px;
+    height: 1000px;
+
+
+}
+
+.heading1{
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+
+}
+.box {
+    background-color: lightgrey;
+    width: 650px;
+    inline-size: 1000px;
+    height: 500px;
+    block-size: 300px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid black;
+
+
+}
+
+
+.btn.btn-primary{
+  color: yellow;
+    font-size: 40px;
+    width: 250px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.in{
+    font-size: 30px;
+    text-primary-color:yellow ;
+    margin-left: -2px;
+}
+.in2{
+ margin-top: -145px;
+ margin-left: 180px;
+    color: blue;
+}
+.inside{
+    margin-left: -260px;
+    font-weight: bold;
+}

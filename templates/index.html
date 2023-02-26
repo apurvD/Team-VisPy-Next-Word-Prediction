@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet"type="text/css" href="{{url_for('static',filename='CSS/Class2.css')}}">
+
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+  </head>
+    <img src={{url_for('static',filename='CSS/Next_word.jpeg')}} class="img-fluid"  alt = "Responsive image">
+  <body>
+  <br>
+  <br>
+
+
+<div class="container">
+    <div align="center">
+        <div class="row">
+            <div class="col-12 col-sm-4 col-md-3">
+        <div class="box">
+            <div class="inside"><h3>Enter number of words to predict:</h3></div>
+
+
+            <div class="heading1"> <h1>Please Enter the words for prediction?</h1></div>
+    <form method="POST" action = "/send_data">
+
+        <div class = "form-group">
+          <div class="in"><input type="text" name = "pay" placeholder="Enter value....." style="background-color:white;color:blue; font-weight: bold;"></div>
+            <div class="in2"> <input type="text" name = "pay1" size="1" style="background-color:white; color:blue; margin-left: 50px; font-weight: bold;" ></div>
+
+      </div>
+        <button class="btn btn-primary" type="submit">Predict</button>
+    </form>
+        </div>
+
+            </div>
+    </div>
+     </div>
+    </div>
+
+  </body>
+
+</html>

@@ -1,0 +1,36 @@
+body{
+
+background-image: url("/static/CSS/Next_word.jpeg");
+font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+.Heading{
+    font-size: 30px;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    color:black;
+    margin-top: -50px;
+
+}
+.c1{
+
+     font-size: 30px;
+     text-decoration-color: black;
+     color:black;
+     font-weight:bold;
+}
+
+.contains {
+  background-color: lightgrey;
+  width: 560px;
+  border: 5px solid black;
+  padding: 50px;
+  margin: 20px;
+    margin-left: 625px;
+}
+.im{
+    margin-top: -50px;
+
+}
